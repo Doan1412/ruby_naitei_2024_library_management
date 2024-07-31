@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     delete "/logout", to: "sessions#destroy"
     get "static_pages/home"
     root "static_pages#home"
-    resources :books, only: %i(index show)
+    resources :books, only: %i(index show destroy)
     resources :accounts, only: [:new, :create] do
       member do
         post "update_status"

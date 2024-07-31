@@ -52,6 +52,8 @@ vi:
     welcome: "Chào mừng đến với Librarails"
     update_success: "Cập nhật thành công."
     update_fail: "Cập nhật thất bại."
+    book_delete_success: "Sách đã được xóa thành công."
+    book_delete_fail: "Xóa sách thất bại."
     book_confirm_delete: "Bạn có chắc chắn muốn xóa sách này không?"
   user:
     filter: "Lọc"
@@ -101,3 +103,4 @@ vi:
     add_book: "Thêm sách"
     edit: "Sửa"
     delete: "Xóa"
+    

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1><% t "request_mailer.failure.subject" %></h1>
+    <p><% t "request_mailer.failure.hello", name: @request.user.name %></p>
+    <p><% t "request_mailer.failure.message", description: @request.description %></p>
+    <p><% t "request_mailer.failure.thanks" %></p>
+  </body>
+</html>
